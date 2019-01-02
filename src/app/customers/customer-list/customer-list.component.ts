@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {QuotesService} from '../../shared/services/quotes.service';
+import {QuoteModel} from '../../shared/models/quote/quote.model';
 
 @Component({
   selector: 'app-customer-list',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomerListComponent implements OnInit {
 
-  constructor() { }
+  quotes: QuoteModel[];
+
+  constructor(private quotesService: QuotesService) {
+  }
 
   ngOnInit() {
+
+    this.quotesService.getAllQotes()
+      .subscribe(
+        data => {
+          console.log('liste quotes', data);
+          this.quotes = data;
+        });
   }
 
 }
