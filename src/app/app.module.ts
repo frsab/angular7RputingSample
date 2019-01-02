@@ -9,11 +9,13 @@ import {CdkTableModule} from '@angular/cdk/table';
 import {MatTableModule} from '@angular/material/table';
 import { TableauComponent } from './tableau/tableau.component';
 import { MatPaginatorModule, MatSortModule } from '@angular/material';
+import { AutretableauComponent } from './shared/autretableau/autretableau.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableauComponent
+    TableauComponent,
+    AutretableauComponent
   ],
   imports: [
     HttpClientModule,
