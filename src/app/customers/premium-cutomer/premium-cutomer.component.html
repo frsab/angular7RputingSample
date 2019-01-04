@@ -27,5 +27,13 @@
     </ng-container>
     <mat-header-row  *matHeaderRowDef="displayedColumns"> </mat-header-row>
     <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+
+    <mat-paginator #paginator
+                   [length]="quotesDataSource.myData.length"
+                   [pageIndex]="0"
+                   [pageSize]="50"
+                   [pageSizeOptions]="[25, 50, 100, 250]">
+    </mat-paginator>
+
   </mat-table>
 </div>
