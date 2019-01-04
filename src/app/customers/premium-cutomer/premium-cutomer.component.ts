@@ -1,6 +1,9 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { MatPaginator, MatSort } from '@angular/material';
-import { PremiumCutomerDataSource } from './premium-cutomer-datasource';
+import {Component, OnInit} from '@angular/core';
+import {QuotesService} from '../../shared/services/quotes.service';
+import {Observable} from 'rxjs';
+import {DataSource} from '@angular/cdk/collections';
+import {QuoteModel} from '../../shared/models/quote/quote.model';
+import {QuotesDataSource} from '../../shared/dataSources/quotes-datasource';
 
 @Component({
   selector: 'app-premium-cutomer',
@@ -8,14 +11,13 @@ import { PremiumCutomerDataSource } from './premium-cutomer-datasource';
   styleUrls: ['./premium-cutomer.component.css']
 })
 export class PremiumCutomerComponent implements OnInit {
-  @ViewChild(MatPaginator) paginator: MatPaginator;
-  @ViewChild(MatSort) sort: MatSort;
-  dataSource: PremiumCutomerDataSource;
+  quotesDataSource = new QuotesDataSource(this.quotesService);
+  displayedColumns = ['symbol', 'bid', 'ask', 'price', 'timestamp'];
 
-  /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['id', 'name'];
+
+  constructor(private quotesService: QuotesService) {
+  }
 
   ngOnInit() {
-    this.dataSource = new PremiumCutomerDataSource(this.paginator, this.sort);
   }
 }

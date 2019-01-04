@@ -18,8 +18,8 @@ import { AutretableauComponent } from './shared/autretableau/autretableau.compon
     AutretableauComponent
   ],
   imports: [
-    HttpClientModule,
     BrowserModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     AppRoutingModule,
    MatTableModule,
