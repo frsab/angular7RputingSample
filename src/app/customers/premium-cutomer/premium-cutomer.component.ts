@@ -15,8 +15,7 @@ export class PremiumCutomerComponent implements OnInit {
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
 
-  quotesDataSource: QuotesDataSource;
-   // quotesDataSource = new QuotesDataSource(this.quotesService, this.paginator);
+  myQuotesDataSource: QuotesDataSource;
   displayedColumns = ['symbol', 'bid', 'ask', 'price', 'timestamp'];
 
 
@@ -24,6 +23,6 @@ export class PremiumCutomerComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.quotesDataSource = new QuotesDataSource(this.quotesService, this.paginator);
+    this.myQuotesDataSource = new QuotesDataSource(this.quotesService, this.paginator);
   }
 }
