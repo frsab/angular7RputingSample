@@ -1,6 +1,6 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {QuotesService} from '../../shared/services/quotes.service';
-import { MatPaginator } from '@angular/material';
+import {MatPaginator, MatSort} from '@angular/material';
 import {Observable} from 'rxjs';
 import {DataSource} from '@angular/cdk/collections';
 import {QuoteModel} from '../../shared/models/quote/quote.model';
@@ -14,6 +14,7 @@ import {QuotesDataSource} from '../../shared/dataSources/quotes-datasource';
 export class PremiumCutomerComponent implements OnInit {
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
+  @ViewChild(MatSort) sort: MatSort;
 
   myQuotesDataSource: QuotesDataSource;
   displayedColumns = ['symbol', 'bid', 'ask', 'price', 'timestamp'];
@@ -23,6 +24,7 @@ export class PremiumCutomerComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.myQuotesDataSource = new QuotesDataSource(this.quotesService);
+
+    this.myQuotesDataSource = new QuotesDataSource(this.quotesService, this.paginator, this.sort);
   }
 }

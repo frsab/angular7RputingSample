@@ -4,29 +4,37 @@
 <button (click)="connecter()">connected {{connected}}</button>
 <br>
 <div>
-  <mat-table [dataSource]="myQuotesDataSource">
+  <table mat-table  class="full-width-table" [dataSource]="myQuotesDataSource" matSort>
     <ng-container matColumnDef="symbol">
-      <mat-header-cell *matHeaderCellDef> Symbol</mat-header-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Symbol</mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.symbol}}</mat-cell>
     </ng-container>
     <ng-container matColumnDef="bid">
-      <mat-header-cell *matHeaderCellDef> Bid</mat-header-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Bid</mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.bid}}</mat-cell>
     </ng-container>
     <ng-container matColumnDef="ask">
-      <mat-header-cell *matHeaderCellDef> ask</mat-header-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header> ask</mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.ask}}</mat-cell>
     </ng-container>
     <ng-container matColumnDef="price">
-      <mat-header-cell *matHeaderCellDef> price</mat-header-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header> price</mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.price}}</mat-cell>
     </ng-container>
     <ng-container matColumnDef="timestamp">
-      <mat-header-cell *matHeaderCellDef> timestamp</mat-header-cell>
+      <mat-header-cell *matHeaderCellDef mat-sort-header> timestamp</mat-header-cell>
       <mat-cell *matCellDef="let element"> {{element.timestamp | date }}</mat-cell>
     </ng-container>
     <mat-header-row  *matHeaderRowDef="displayedColumns"> </mat-header-row>
     <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
 
-  </mat-table>
+  </table>
+
+  <mat-paginator #paginator
+                 [length]="myQuotesDataSource.data.length"
+                 [pageIndex]="0"
+                 [pageSize]="5"
+                 [pageSizeOptions]="[5,10 ,25,33,  50, 100, 250]">
+  </mat-paginator>
+
 </div>
