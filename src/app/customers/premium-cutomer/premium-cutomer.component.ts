@@ -23,6 +23,6 @@ export class PremiumCutomerComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.myQuotesDataSource = new QuotesDataSource(this.quotesService, this.paginator);
+    this.myQuotesDataSource = new QuotesDataSource(this.quotesService);
   }
 }

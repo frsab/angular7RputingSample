@@ -1,0 +1,487 @@
+{
+  "data": [
+    {
+      "symbol": "EURUSD",
+      "bid": 1.13944,
+      "ask": 1.13983,
+      "price": 1.13963,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDJPY",
+      "bid": 108.526,
+      "ask": 108.571,
+      "price": 108.5485,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "GBPUSD",
+      "bid": 1.27217,
+      "ask": 1.27347,
+      "price": 1.27282,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDCAD",
+      "bid": 1.33729,
+      "ask": 1.33811,
+      "price": 1.3377,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDCHF",
+      "bid": 0.98618,
+      "ask": 0.98718,
+      "price": 0.98668,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "AUDUSD",
+      "bid": 0.71159,
+      "ask": 0.71201,
+      "price": 0.7118,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "NZDUSD",
+      "bid": 0.67315,
+      "ask": 0.67415,
+      "price": 0.67365,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURGBP",
+      "bid": 0.89507,
+      "ask": 0.89572,
+      "price": 0.895395,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURCHF",
+      "bid": 1.12399,
+      "ask": 1.12521,
+      "price": 1.1246,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURCAD",
+      "bid": 1.52376,
+      "ask": 1.52485,
+      "price": 1.52431,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURAUD",
+      "bid": 1.6004,
+      "ask": 1.60176,
+      "price": 1.60108,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURNZD",
+      "bid": 1.69121,
+      "ask": 1.69223,
+      "price": 1.69172,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURJPY",
+      "bid": 123.66,
+      "ask": 123.765,
+      "price": 123.7125,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "GBPJPY",
+      "bid": 138.069,
+      "ask": 138.243,
+      "price": 138.156,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "CHFJPY",
+      "bid": 109.951,
+      "ask": 110.077,
+      "price": 110.014,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "CADJPY",
+      "bid": 81.115,
+      "ask": 81.191,
+      "price": 81.153,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "AUDJPY",
+      "bid": 77.221,
+      "ask": 77.307,
+      "price": 77.264,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "NZDJPY",
+      "bid": 73.068,
+      "ask": 73.179,
+      "price": 73.1235,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "GBPCHF",
+      "bid": 1.25445,
+      "ask": 1.25614,
+      "price": 1.2553,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "GBPAUD",
+      "bid": 1.78623,
+      "ask": 1.78773,
+      "price": 1.78698,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "GBPCAD",
+      "bid": 1.70114,
+      "ask": 1.70251,
+      "price": 1.70182,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "GBPNZD",
+      "bid": 1.88779,
+      "ask": 1.88924,
+      "price": 1.88851,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "AUDCAD",
+      "bid": 0.95149,
+      "ask": 0.95273,
+      "price": 0.95211,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "AUDCHF",
+      "bid": 0.7018,
+      "ask": 0.70288,
+      "price": 0.70234,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "AUDNZD",
+      "bid": 1.05607,
+      "ask": 1.05785,
+      "price": 1.05696,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "CADCHF",
+      "bid": 0.73711,
+      "ask": 0.73815,
+      "price": 0.73763,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "AUDSGD",
+      "bid": 0.96683,
+      "ask": 0.9684,
+      "price": 0.967615,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "CHFSGD",
+      "bid": 1.37658,
+      "ask": 1.37833,
+      "price": 1.37745,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURNOK",
+      "bid": 9.8103,
+      "ask": 9.82067,
+      "price": 9.81548,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURRUB",
+      "bid": 76.9223,
+      "ask": 77.1223,
+      "price": 77.0223,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURSEK",
+      "bid": 10.207,
+      "ask": 10.2248,
+      "price": 10.2159,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURSGD",
+      "bid": 1.5482,
+      "ask": 1.54993,
+      "price": 1.54907,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURTRY",
+      "bid": 6.0723,
+      "ask": 6.08684,
+      "price": 6.07957,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURZAR",
+      "bid": 15.8869,
+      "ask": 15.9469,
+      "price": 15.9169,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "GBPHKD",
+      "bid": 9.96268,
+      "ask": 9.97894,
+      "price": 9.97081,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "GBPNOK",
+      "bid": 10.946,
+      "ask": 10.9795,
+      "price": 10.9627,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "GBPSEK",
+      "bid": 11.39,
+      "ask": 11.428,
+      "price": 11.409,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "GBPSGD",
+      "bid": 1.72818,
+      "ask": 1.73131,
+      "price": 1.72974,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "NOKJPY",
+      "bid": 12.585,
+      "ask": 12.617,
+      "price": 12.601,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "NZDCAD",
+      "bid": 0.90026,
+      "ask": 0.90187,
+      "price": 0.901065,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "NZDCHF",
+      "bid": 0.66401,
+      "ask": 0.66534,
+      "price": 0.664675,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "SGDJPY",
+      "bid": 79.758,
+      "ask": 79.932,
+      "price": 79.845,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDCNH",
+      "bid": 6.86314,
+      "ask": 6.86649,
+      "price": 6.86482,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDDKK",
+      "bid": 6.55109,
+      "ask": 6.55317,
+      "price": 6.55213,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDHKD",
+      "bid": 7.8337,
+      "ask": 7.8358,
+      "price": 7.83475,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDMXN",
+      "bid": 19.414,
+      "ask": 19.4274,
+      "price": 19.4207,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDNOK",
+      "bid": 8.60687,
+      "ask": 8.61926,
+      "price": 8.61307,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDPLN",
+      "bid": 3.7603,
+      "ask": 3.7711,
+      "price": 3.7657,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDRUB",
+      "bid": 67.4661,
+      "ask": 67.6661,
+      "price": 67.5661,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDSEK",
+      "bid": 8.96092,
+      "ask": 8.97252,
+      "price": 8.96672,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDSGD",
+      "bid": 1.35879,
+      "ask": 1.35971,
+      "price": 1.35925,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDTRY",
+      "bid": 5.32607,
+      "ask": 5.33703,
+      "price": 5.33155,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "USDZAR",
+      "bid": 13.955,
+      "ask": 13.9732,
+      "price": 13.9641,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "XAGEUR",
+      "bid": 13.758,
+      "ask": 13.79,
+      "price": 13.774,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "XAGUSD",
+      "bid": 15.681,
+      "ask": 15.715,
+      "price": 15.698,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "XAUEUR",
+      "bid": 1127.2,
+      "ask": 1127.7,
+      "price": 1127.45,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "XAUUSD",
+      "bid": 1284.46,
+      "ask": 1285.22,
+      "price": 1284.84,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "BTCUSD",
+      "bid": 3892.07,
+      "ask": 3892.07,
+      "price": 3892.07,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "ETHBTC",
+      "bid": 0.04053,
+      "ask": 0.04056,
+      "price": 0.040545,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "ETHUSD",
+      "bid": 157.61,
+      "ask": 157.61,
+      "price": 157.61,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "LTCBTC",
+      "bid": 0.0086,
+      "ask": 0.00862,
+      "price": 0.00861,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "LTCUSD",
+      "bid": 33.45,
+      "ask": 33.45,
+      "price": 33.45,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "XRPUSD",
+      "bid": 0.35298,
+      "ask": 0.35345,
+      "price": 0.353215,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "XRPBTC",
+      "bid": 0.00009,
+      "ask": 0.00009,
+      "price": 0.00009,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "DSHUSD",
+      "bid": 81.6073,
+      "ask": 81.9759,
+      "price": 81.7916,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "DSHBTC",
+      "bid": 0.02044,
+      "ask": 0.021,
+      "price": 0.02072,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "BCHUSD",
+      "bid": 159.881,
+      "ask": 159.881,
+      "price": 159.881,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "BCHBTC",
+      "bid": 0.041,
+      "ask": 0.041,
+      "price": 0.041,
+      "timestamp": 1546685418
+    },
+    {
+      "symbol": "EURHKD",
+      "bid": 8.92603,
+      "ask": 8.93148,
+      "price": 8.92876,
+      "timestamp": 1546685418
+    }
+  ]
+}

@@ -7,14 +7,12 @@ import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CdkTableModule} from '@angular/cdk/table';
 import {MatTableModule} from '@angular/material/table';
-import { TableauComponent } from './tableau/tableau.component';
 import { MatPaginatorModule, MatSortModule } from '@angular/material';
 import { AutretableauComponent } from './shared/autretableau/autretableau.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableauComponent,
     AutretableauComponent
   ],
   imports: [
@@ -22,7 +20,7 @@ import { AutretableauComponent } from './shared/autretableau/autretableau.compon
     HttpClientModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-   MatTableModule,
+    MatTableModule,
     CdkTableModule,
     MatPaginatorModule,
     MatSortModule

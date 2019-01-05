@@ -2,15 +2,15 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatPaginatorModule, MatSortModule, MatTableModule } from '@angular/material';
 
-import { TableauComponent } from './tableau.component';
+import { TableWithPaginationComponent } from './table-with-pagination.component';
 
-describe('TableauComponent', () => {
-  let component: TableauComponent;
-  let fixture: ComponentFixture<TableauComponent>;
+describe('TableWithPaginationComponent', () => {
+  let component: TableWithPaginationComponent;
+  let fixture: ComponentFixture<TableWithPaginationComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TableauComponent ],
+      declarations: [ TableWithPaginationComponent ],
       imports: [
         NoopAnimationsModule,
         MatPaginatorModule,
@@ -21,7 +21,7 @@ describe('TableauComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TableauComponent);
+    fixture = TestBed.createComponent(TableWithPaginationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
