@@ -22,7 +22,9 @@ export class PremiumCutomerComponent implements OnInit {
 
   constructor(private quotesService: QuotesService) {
   }
-
+  applyFilter(filterValue: string) {
+    this.myQuotesDataSource.filter = filterValue.trim().toLowerCase();
+  }
   ngOnInit() {
 
     this.myQuotesDataSource = new QuotesDataSource(this.quotesService, this.paginator, this.sort);

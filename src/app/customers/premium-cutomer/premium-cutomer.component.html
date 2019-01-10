@@ -4,6 +4,11 @@
 <button (click)="connecter()">connected {{connected}}</button>
 <br>
 <div>
+  <!-- -->
+  <mat-form-field>
+    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+  </mat-form-field>
+
   <table mat-table  class="full-width-table" [dataSource]="myQuotesDataSource" matSort>
     <ng-container matColumnDef="symbol">
       <mat-header-cell *matHeaderCellDef mat-sort-header> Symbol</mat-header-cell>

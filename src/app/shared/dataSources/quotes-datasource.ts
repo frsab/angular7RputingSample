@@ -1,11 +1,11 @@
-import {DataSource} from '@angular/cdk/table';
+//import {MatTableDataSource} from '@angular/cdk/table'; ////import {MatTableDataSource} from '@angular/material';
 import {QuotesService} from '../services/quotes.service';
 import {merge, Observable, of as observableOf} from 'rxjs';
 import {QuoteModel} from '../models/quote/quote.model';
-import {MatPaginator, MatSort} from '@angular/material';
+import {MatPaginator, MatSort, MatTableDataSource} from '@angular/material';
 import {map} from 'rxjs/operators';
 
-export class QuotesDataSource extends DataSource<QuoteModel> {
+export class QuotesDataSource extends MatTableDataSource<QuoteModel> {
   data: QuoteModel[] = new Array<QuoteModel>();
 
   constructor(private quotesService: QuotesService,
@@ -21,7 +21,6 @@ export class QuotesDataSource extends DataSource<QuoteModel> {
     ];
 
     this.quotesService.getAllQotes().subscribe(result => {
-      console.log('result quotesService' + result);
       this.data = result;
       this.paginator.length = this.data.length;
     });

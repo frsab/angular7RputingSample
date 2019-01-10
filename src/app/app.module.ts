@@ -5,10 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {CdkTableModule} from '@angular/cdk/table';
-import {MatTableModule} from '@angular/material/table';
-import { MatPaginatorModule, MatSortModule } from '@angular/material';
+
 import { AutretableauComponent } from './shared/autretableau/autretableau.component';
+import {MaterialModule} from './material.module';
 
 @NgModule({
   declarations: [
@@ -20,10 +19,7 @@ import { AutretableauComponent } from './shared/autretableau/autretableau.compon
     HttpClientModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatTableModule,
-    CdkTableModule,
-    MatPaginatorModule,
-    MatSortModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

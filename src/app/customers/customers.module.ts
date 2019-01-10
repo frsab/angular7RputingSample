@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 
 import { CustomersRoutingModule } from './customers-routing.module';
 import { PremiumCutomerComponent } from './premium-cutomer/premium-cutomer.component';
-import { MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/material';
 import {QuotesService} from '../shared/services/quotes.service';
 import {TableWithPaginationComponent} from './table-with-pagination/table-with-pagination.component';
+import {MaterialModule} from '../material.module';
 
 @NgModule({
   declarations: [
@@ -15,9 +15,7 @@ import {TableWithPaginationComponent} from './table-with-pagination/table-with-p
   imports: [
     CommonModule,
     CustomersRoutingModule,
-    MatTableModule,
-    MatPaginatorModule,
-    MatSortModule
+    MaterialModule
   ],
   providers:  [
     QuotesService
